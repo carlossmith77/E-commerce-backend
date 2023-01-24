@@ -1,0 +1,10 @@
+DB ecommerce_db
+Executing (default): DROP TABLE IF EXISTS `product_tag`;
+Executing (default): DROP TABLE IF EXISTS `tag`;
+Executing (default): DROP TABLE IF EXISTS `category`;
+Executing (default): DROP TABLE IF EXISTS `product`;
+Executing (default): DROP TABLE IF EXISTS `product`;
+Executing (default): CREATE TABLE IF NOT EXISTS `product` (`id` INTEGER NOT NULL auto_increment , PRIMARY KEY (`id`)) ENGINE=InnoDB;
+Executing (default): SHOW INDEX FROM `product`
+Executing (default): DROP TABLE IF EXISTS `category`;
+Executing (default): CREATE TABLE IF NOT EXISTS `category` (`id` INTEGER NOT NULL auto_increment , `category_name` , PRIMARY KEY (`id`)) ENGINE=InnoDB;
